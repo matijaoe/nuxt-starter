@@ -67,4 +67,4 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 ## Related 
 
 - 👽 [`vue-starter`](https://github.com/mat2ja/vue-starter)
-- 🔮 [`vue-anu-starter`](https://github.com/mat2ja/vue-starter)
+- 🔮 [`vue-anu-starter`](https://github.com/mat2ja/vue-anu-starter)

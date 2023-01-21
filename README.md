@@ -1,6 +1,6 @@
 # 🧚🏻 Minimal Nuxt 3 Starter Template
 
-> Default Nuxt 3 minimal starter template, extended with must-have modules 
+> Default Nuxt 3 minimal starter template, extended with must-have modules, configured for pnpm
 
 ## Included
 - [UnoCSS](https://github.com/unocss/unocss)

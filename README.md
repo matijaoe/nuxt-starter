@@ -14,6 +14,7 @@
 - [Pinia](https://pinia.vuejs.org/)
 - [Nuxt Icon](https://github.com/nuxt-modules/icon)
 - [Nuxt Image](https://v1.image.nuxtjs.org/get-started)
+- [Nuxt Color Mode](https://color-mode.nuxtjs.org/)
 - [PostCSS Nested](https://github.com/postcss/postcss-nested)
 - [TypeScript](https://www.typescriptlang.org/)
 - [ESLint](https://github.com/antfu/eslint-config)

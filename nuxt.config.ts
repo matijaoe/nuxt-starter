@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     'nuxt-icon',
     '@nuxt/image-edge',
+    '@nuxtjs/color-mode',
   ],
   experimental: {
     reactivityTransform: true,
@@ -27,6 +28,9 @@ export default defineNuxtConfig({
     plugins: {
       'postcss-nested': {},
     },
+  },
+  colorMode: {
+    classSuffix: '',
   },
   app: {
     head: {

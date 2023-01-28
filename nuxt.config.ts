@@ -7,11 +7,8 @@ export default defineNuxtConfig({
     'nuxt-icon',
     '@nuxt/image-edge',
     '@nuxtjs/color-mode',
+    'nuxt-typed-router',
   ],
-  experimental: {
-    reactivityTransform: true,
-    inlineSSRStyles: false,
-  },
   unocss: {
     preflight: true,
   },

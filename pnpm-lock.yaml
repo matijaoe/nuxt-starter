@@ -11,6 +11,7 @@ specifiers:
   eslint: 8.32.0
   nuxt: 3.1.1
   nuxt-icon: 0.2.10
+  nuxt-typed-router: ^2.2.1
   pinia: ^2.0.29
   postcss-nested: ^6.0.0
   typescript: ^4.9.4
@@ -29,6 +30,7 @@ devDependencies:
   eslint: 8.32.0
   nuxt: 3.1.1_7uibuqfxkfaozanbtbziikiqje
   nuxt-icon: 0.2.10
+  nuxt-typed-router: 2.2.1
   postcss-nested: 6.0.0
   typescript: 4.9.4
 
@@ -1184,7 +1186,7 @@ packages:
       create-require: 1.1.1
       defu: 6.1.1
       jiti: 1.16.2
-      pathe: 1.0.0
+      pathe: 1.1.0
       pkg-types: 1.0.1
       postcss-import-resolver: 2.0.0
       scule: 1.0.0
@@ -2749,7 +2751,7 @@ packages:
       giget: 1.0.0
       jiti: 1.16.2
       mlly: 1.1.0
-      pathe: 1.0.0
+      pathe: 1.1.0
       pkg-types: 1.0.1
       rc9: 2.0.0
     transitivePeerDependencies:
@@ -4321,7 +4323,7 @@ packages:
       https-proxy-agent: 5.0.1
       mri: 1.2.0
       node-fetch-native: 1.0.1
-      pathe: 1.0.0
+      pathe: 1.1.0
       tar: 6.1.13
     transitivePeerDependencies:
       - supports-color
@@ -5125,6 +5127,10 @@ packages:
       p-locate: 5.0.0
     dev: true
 
+  /lodash-es/4.17.21:
+    resolution: {integrity: sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==}
+    dev: true
+
   /lodash._reinterpolate/3.0.0:
     resolution: {integrity: sha512-xYHt68QRoYGjeeM/XOE1uJtvXQAgvszfBhjV4yvsQH0u2i9I6cI6c6/eG4Hh3UAOVn0y/xAXwmTzEay49Q//HA==}
     dev: true
@@ -5400,7 +5406,7 @@ packages:
     resolution: {integrity: sha512-cwzBrBfwGC1gYJyfcy8TcZU1f+dbH/T+TuOhtYP2wLv/Fb51/uV7HJQfBPtEupZ2ORLRU1EKFS/QfS3eo9+kBQ==}
     dependencies:
       acorn: 8.8.1
-      pathe: 1.0.0
+      pathe: 1.1.0
       pkg-types: 1.0.1
       ufo: 1.0.1
     dev: true
@@ -5689,6 +5695,21 @@ packages:
       - rollup
       - supports-color
       - vue
+    dev: true
+
+  /nuxt-typed-router/2.2.1:
+    resolution: {integrity: sha512-MoK0QBSfrkJSHEQe0hYORVB7Q6PDrg2PsPMwiciRCGRzJwFMMwuM7SnLa5EPVxP1lZbzeLHGe35cVzsC8ynVdA==}
+    dependencies:
+      '@nuxt/kit': 3.1.1
+      chalk: 5.2.0
+      lodash-es: 4.17.21
+      log-symbols: 5.1.0
+      mkdirp: 1.0.4
+      pathe: 1.1.0
+      prettier: 2.8.3
+    transitivePeerDependencies:
+      - rollup
+      - supports-color
     dev: true
 
   /nuxt/3.1.1_7uibuqfxkfaozanbtbziikiqje:
@@ -6048,7 +6069,7 @@ packages:
     dependencies:
       jsonc-parser: 3.2.0
       mlly: 1.1.0
-      pathe: 1.0.0
+      pathe: 1.1.0
     dev: true
 
   /pluralize/8.0.0:
@@ -6422,6 +6443,12 @@ packages:
   /prelude-ls/1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
+    dev: true
+
+  /prettier/2.8.3:
+    resolution: {integrity: sha512-tJ/oJ4amDihPoufT5sM0Z1SKEuKay8LfVAMlbbhnnkvt6BUserZylqo2PN+p9KeljLr0OHa2rXHU1T8reeoTrw==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
     dev: true
 
   /pretty-bytes/6.0.0:
@@ -7345,7 +7372,7 @@ packages:
       local-pkg: 0.4.3
       magic-string: 0.27.0
       mlly: 1.1.0
-      pathe: 1.0.0
+      pathe: 1.1.0
       pkg-types: 1.0.1
       scule: 1.0.0
       strip-literal: 1.0.0

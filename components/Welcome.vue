@@ -39,7 +39,7 @@ const modules: Link[] = [
       <div z--1>
         <NuxtImg
           src="/gradients/hero-gradient.svg"
-          class="absolute top-0 right-0 hidden overflow-hidden select-none lg:block blur-2xl pointer-events-none"
+          class="absolute top-0 right-0 hidden overflow-hidden select-none lg:block blur-md pointer-events-none"
           role="presentation"
           width="1269" height="724"
         />

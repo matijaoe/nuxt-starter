@@ -2,7 +2,9 @@
 
 > Nuxt 3 starter template preconfigured with essential modules
 
-<img width="1512" alt="Starter template" src="https://user-images.githubusercontent.com/46557266/215276700-62de4db4-955a-464a-bd8e-7a4ce7c5e904.png">
+<a href="https://nuxt-starter-iota.vercel.app">
+  <img width="1512" alt="Starter template" src="https://user-images.githubusercontent.com/46557266/215276700-62de4db4-955a-464a-bd8e-7a4ce7c5e904.png">
+</a>
 
 
 ## Included
@@ -41,33 +43,36 @@ Clone the template locally, with no git history (using [`unjs/giget`](https://gi
 npx giget gh:mat2ja/nuxt-starter <name>
 ```
 
+
+## Checklist
+
+- [ ] Install the recommended extensions
+- [ ] Change the author name in `LICENSE`
+- [ ] Change the title in `nuxt.config.ts`
+- [ ] Change the favicon in `public`
+- [ ] Delete `hero-gradient.svg` in `public`
+- [ ] Delete `Welcome.vue` component
+- [ ] Delete icon components in `components/global`
+- [ ] Customize robots.txt rules in `nuxt.config.ts`
+- [ ] Remove any not needed modules from `nuxt.config.ts` and `package.json`
+- [ ] Customize `README.md`
+
 ## Setup
 
-Make sure to install the dependencies:
-
 ```bash
-pnpm install
-```
+# install dependencies
+pnpm i
 
-## Development Server
+# update dependencies
+pnpm up --interactive --latest
 
-Start the development server on http://localhost:3000
-
-```bash
+# start development server
 pnpm dev
-```
 
-## Production
-
-Build the application for production:
-
-```bash
+# build for production
 pnpm build
-```
 
-Locally preview production build:
-
-```bash
+# locally preview production build
 pnpm preview
 ```
 

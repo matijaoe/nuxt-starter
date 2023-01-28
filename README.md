@@ -50,7 +50,7 @@ npx giget gh:mat2ja/nuxt-starter <name>
 - [ ] Change the author name in `LICENSE`
 - [ ] Change the title in `nuxt.config.ts`
 - [ ] Change the favicon in `public`
-- [ ] Delete `hero-gradient.svg` in `public`
+- [ ] Delete `gradients` directory in `public`
 - [ ] Delete `Welcome.vue` component
 - [ ] Delete icon components in `components/global`
 - [ ] Customize robots.txt rules in `nuxt.config.ts`

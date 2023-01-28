@@ -36,12 +36,16 @@ const modules: Link[] = [
         <NuxtDark />
       </NuxtLink>
 
-      <NuxtImg
-        src="/hero-gradient.svg"
-        class="absolute top-0 right-0 hidden overflow-hidden select-none lg:block blur-2xl pointer-events-none"
-        role="presentation"
-        width="1269" height="724"
-      />
+      <div z--1>
+        <NuxtImg
+          src="/gradients/hero-gradient.svg"
+          class="absolute top-0 right-0 hidden overflow-hidden select-none lg:block blur-2xl pointer-events-none"
+          role="presentation"
+          width="1269" height="724"
+        />
+        <NuxtImg src="/gradients/hero-gradient-tablet.svg" class="absolute top-0 right-0 w-full hidden overflow-hidden select-none sm:block lg:hidden blur-md pointer-events-none" role="presentation" width="924" height="653" />
+        <NuxtImg src="/gradients/hero-gradient-mobile.svg" class="absolute inset-x-0 top-0 w-full overflow-hidden object-cover select-none sm:hidden blur-md pointer-events-none" role="presentation" width="375" height="494" />
+      </div>
 
       <div grid grid-cols-2 gap-20 w-fit>
         <ul class="links-column">

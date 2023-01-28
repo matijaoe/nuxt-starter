@@ -44,7 +44,7 @@ export default defineNuxtConfig({
     head: {
       title: 'Nuxt Starter',
       link: [
-        { rel: 'icon', type: 'image/svg+xml', href: '/icon.svg' },
+        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
       ],
     },
   },

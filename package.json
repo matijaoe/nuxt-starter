@@ -16,6 +16,7 @@
     "format": "eslint . --fix"
   },
   "dependencies": {
+    "@nuxtjs/critters": "^0.4.0",
     "pinia": "^2.0.29"
   },
   "devDependencies": {

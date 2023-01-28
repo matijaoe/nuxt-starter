@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     '@nuxt/image-edge',
     '@nuxtjs/color-mode',
     'nuxt-typed-router',
+    '@nuxtjs/critters',
   ],
   unocss: {
     preflight: true,

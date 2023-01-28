@@ -9,9 +9,13 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     'nuxt-typed-router',
     '@nuxtjs/critters',
+    '@nuxtjs/robots',
   ],
   unocss: {
     preflight: true,
+  },
+  experimental: {
+    inlineSSRStyles: true,
   },
   imports: {
     dirs: [
@@ -29,6 +33,12 @@ export default defineNuxtConfig({
   },
   colorMode: {
     classSuffix: '',
+  },
+  robots: {
+    rules: {
+      UserAgent: '*',
+      Allow: '/',
+    },
   },
   app: {
     head: {

@@ -1,6 +1,7 @@
 import {
   defineConfig,
   presetAttributify,
+  presetTypography,
   presetUno,
   presetWebFonts,
   transformerDirectives,
@@ -11,6 +12,7 @@ export default defineConfig({
   presets: [
     presetUno(),
     presetAttributify(),
+    presetTypography(),
     presetWebFonts({
       fonts: {
         sans: 'DM Sans',

@@ -6,7 +6,6 @@
   <img width="1512" alt="Starter template" src="https://user-images.githubusercontent.com/46557266/215276700-62de4db4-955a-464a-bd8e-7a4ce7c5e904.png">
 </a>
 
-
 ## Included
 - [UnoCSS](https://github.com/unocss/unocss)
   - [`presetUno`](https://github.com/unocss/unocss/tree/main/packages/preset-uno)
@@ -32,6 +31,11 @@
 - [`@nuxtjs/robots`](https://nuxt.com/modules/robots)
 
 ## Use the template
+
+### StackBlitz Codeflow
+
+[![Open in Codeflow](https://developer.stackblitz.com/img/open_in_codeflow.svg)](https://pr.new/mat2ja/nuxt-starter)
+
 
 ### GitHub Template
 [Create a repo from this template on GitHub](https://github.com/mat2ja/vue-starter/generate)

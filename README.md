@@ -1,6 +1,6 @@
-# 🧚🏻 Minimal Nuxt 3 Starter Template
+# 🧚🏻 Nuxt 3 Starter Template
 
-> Nuxt 3 starter template configured with essential modules
+> Nuxt 3 starter template preconfigured with essential modules
 
 <img width="1512" alt="Starter template" src="https://user-images.githubusercontent.com/46557266/215276700-62de4db4-955a-464a-bd8e-7a4ce7c5e904.png">
 

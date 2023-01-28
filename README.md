@@ -3,7 +3,7 @@
 > Nuxt 3 starter template preconfigured with essential modules
 
 <a href="https://nuxt-starter-iota.vercel.app">
-  <img width="1512" alt="Starter template" src="https://user-images.githubusercontent.com/46557266/215276700-62de4db4-955a-464a-bd8e-7a4ce7c5e904.png">
+  <img width="1512" alt="Screenshot" src="https://user-images.githubusercontent.com/46557266/215290984-bbdf7179-05f9-424a-8ec2-febaffceda66.png">
 </a>
 
 ## Included
@@ -32,10 +32,10 @@
 
 ## Use the template
 
-### StackBlitz Codeflow
+### StackBlitz
 
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/mat2ja/nuxt-starter)
 [![Open in Codeflow](https://developer.stackblitz.com/img/open_in_codeflow.svg)](https://pr.new/mat2ja/nuxt-starter)
-
 
 ### GitHub Template
 [Create a repo from this template on GitHub](https://github.com/mat2ja/vue-starter/generate)
@@ -46,7 +46,6 @@ Clone the template locally, with no git history (using [`unjs/giget`](https://gi
 ```bash
 npx giget gh:mat2ja/nuxt-starter <name>
 ```
-
 
 ## Checklist
 

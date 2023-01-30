@@ -1,6 +1,6 @@
 # 🧚🏻 Nuxt 3 Starter Template
 
-> Nuxt 3 starter template preconfigured with essential modules
+> Minimal Nuxt 3 starter template preconfigured with essential modules
 
 <a href="https://nuxt-starter-iota.vercel.app">
   <img width="1512" alt="Screenshot" src="https://user-images.githubusercontent.com/46557266/215290984-bbdf7179-05f9-424a-8ec2-febaffceda66.png">

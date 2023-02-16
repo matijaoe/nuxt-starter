@@ -25,13 +25,13 @@
     "@nuxtjs/critters": "^0.4.0",
     "@nuxtjs/robots": "^3.0.0",
     "@pinia/nuxt": "^0.4.6",
-    "@unocss/nuxt": "0.49.4",
+    "@unocss/nuxt": "0.49.5",
     "@vue-macros/nuxt": "^1.0.3",
     "@vueuse/nuxt": "9.12.0",
-    "eslint": "8.33.0",
+    "eslint": "8.34.0",
     "nuxt": "3.2.0",
     "nuxt-icon": "0.2.11",
-    "nuxt-typed-router": "^2.3.4",
+    "nuxt-typed-router": "^2.3.5",
     "postcss-nested": "^6.0.0",
     "typescript": "^4.9.5"
   }

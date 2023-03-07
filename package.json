@@ -16,22 +16,22 @@
     "format": "eslint . --fix"
   },
   "dependencies": {
-    "pinia": "^2.0.32"
+    "pinia": "^2.0.33"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "0.35.3",
-    "@nuxt/image-edge": "1.0.0-27954023.4cee565",
+    "@antfu/eslint-config": "0.36.0",
+    "@nuxt/image-edge": "1.0.0-27968280.9739e4d",
     "@nuxtjs/color-mode": "^3.2.0",
     "@nuxtjs/critters": "^0.4.0",
     "@nuxtjs/robots": "^3.0.0",
     "@pinia/nuxt": "^0.4.7",
-    "@unocss/nuxt": "0.50.3",
+    "@unocss/nuxt": "0.50.4",
     "@vue-macros/nuxt": "^1.2.1",
     "@vueuse/nuxt": "9.13.0",
     "eslint": "8.35.0",
     "nuxt": "3.2.3",
     "nuxt-icon": "0.3.2",
-    "nuxt-typed-router": "^3.0.3",
+    "nuxt-typed-router": "^3.0.5",
     "postcss-nested": "^6.0.1",
     "typescript": "^4.9.5"
   }

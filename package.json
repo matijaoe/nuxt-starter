@@ -19,20 +19,20 @@
     "pinia": "^2.0.33"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "0.36.0",
-    "@nuxt/image-edge": "1.0.0-27968280.9739e4d",
+    "@antfu/eslint-config": "0.37.0",
+    "@nuxt/image-edge": "1.0.0-27991759.1a5eea1",
     "@nuxtjs/color-mode": "^3.2.0",
     "@nuxtjs/critters": "^0.4.0",
     "@nuxtjs/robots": "^3.0.0",
     "@pinia/nuxt": "^0.4.7",
-    "@unocss/nuxt": "0.50.4",
-    "@vue-macros/nuxt": "^1.2.2",
+    "@unocss/nuxt": "0.50.6",
+    "@vue-macros/nuxt": "^1.2.7",
     "@vueuse/nuxt": "9.13.0",
     "eslint": "8.36.0",
-    "nuxt": "3.3.1",
+    "nuxt": "3.3.2",
     "nuxt-icon": "0.3.3",
-    "nuxt-typed-router": "^3.0.6",
+    "nuxt-typed-router": "^3.0.7",
     "postcss-nested": "^6.0.1",
-    "typescript": "^4.9.5"
+    "typescript": "^5.0.2"
   }
 }

@@ -1,7 +1,7 @@
 {
   "name": "nuxt-starter",
   "private": true,
-  "packageManager": "pnpm@7.25.0",
+  "packageManager": "pnpm@8.1.0",
   "license": "MIT",
   "engines": {
     "node": ">=18.0"

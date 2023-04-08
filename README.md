@@ -18,7 +18,7 @@
 - [Vue Macros](https://vue-macros.sxzz.moe/)
 - [Pinia](https://pinia.vuejs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [PostCSS Nested](https://github.com/postcss/postcss-nested)
+- [PostCSS Nesting](https://github.com/csstools/postcss-plugins/tree/main/plugins/postcss-nesting)
 - [ESLint](https://github.com/antfu/eslint-config)
 - [pnpm](https://pnpm.io/)
 

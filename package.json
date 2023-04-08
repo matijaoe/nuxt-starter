@@ -32,7 +32,7 @@
     "nuxt": "3.3.2",
     "nuxt-icon": "0.3.3",
     "nuxt-typed-router": "^3.0.7",
-    "postcss-nested": "^6.0.1",
+    "postcss-nesting": "^11.2.2",
     "typescript": "^5.0.2"
   }
 }

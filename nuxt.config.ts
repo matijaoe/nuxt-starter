@@ -30,7 +30,7 @@ export default defineNuxtConfig({
   },
   postcss: {
     plugins: {
-      'postcss-nested': {},
+      'postcss-nesting': {},
     },
   },
   colorMode: {

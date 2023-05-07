@@ -38,6 +38,7 @@
 
         <ul class="links-column">
           <li v-for="link in [
+            { label: 'devtools', to: 'https://nuxt.com/modules/devtools' },
             { label: 'icon', to: 'https://nuxt.com/modules/icon' },
             { label: 'image', to: 'https://v1.image.nuxtjs.org/get-started/' },
             { label: 'color-mode', to: 'https://color-mode.nuxtjs.org/' },
@@ -78,6 +79,6 @@
 }
 
 .link {
-  @apply underline decoration-zinc-50/20 decoration-offset-3 decoration-dotted hover: decoration-#00DC82 flex items-center gap-2;
+  @apply underline decoration-zinc-50/20 decoration-offset-3 decoration-dotted hover:decoration-#00DC82 flex items-center gap-2;
 }
 </style>

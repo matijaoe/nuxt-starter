@@ -23,6 +23,7 @@
 - [pnpm](https://pnpm.io/)
 
 ### Modules
+- [`@nuxt/devtools`](https://nuxt.com/modules/devtools)
 - [`nuxt-icon`](https://github.com/nuxt-modules/icon)
 - [`@nuxt/image-edge`](https://v1.image.nuxtjs.org/get-started)
 - [`@nuxtjs/color-mode`](https://color-mode.nuxtjs.org/)
@@ -51,8 +52,6 @@ npx giget gh:mat2ja/nuxt-starter <name>
 
 - [ ] Install the recommended extensions
 - [ ] Change the author name in `LICENSE`
-- [ ] Change the title in `nuxt.config.ts`
-- [ ] Change the favicon in `public`
 - [ ] Delete `gradients` directory in `public`
 - [ ] Delete `Welcome.vue` component
 - [ ] Delete icon components in `components/global`

@@ -12,14 +12,19 @@ export default defineNuxtConfig({
     'nuxt-typed-router',
     '@nuxtjs/critters',
     '@nuxtjs/robots',
+    '@nuxt/devtools',
   ],
-
-  unocss: {
-    preflight: true,
-  },
 
   experimental: {
     inlineSSRStyles: true,
+  },
+
+  devtools: {
+    enabled: true,
+  },
+
+  unocss: {
+    preflight: true,
   },
 
   imports: {
@@ -52,11 +57,6 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: 'Nuxt Starter',
-      link: [
-        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
-      ],
     },
   },
-
-  devtools: true
 })

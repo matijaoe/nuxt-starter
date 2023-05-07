@@ -13,12 +13,15 @@ export default defineNuxtConfig({
     '@nuxtjs/critters',
     '@nuxtjs/robots',
   ],
+
   unocss: {
     preflight: true,
   },
+
   experimental: {
     inlineSSRStyles: true,
   },
+
   imports: {
     dirs: [
       'composables/**',
@@ -28,20 +31,24 @@ export default defineNuxtConfig({
       'pinia',
     ],
   },
+
   postcss: {
     plugins: {
       'postcss-nesting': {},
     },
   },
+
   colorMode: {
     classSuffix: '',
   },
+
   robots: {
     rules: {
       UserAgent: '*',
       Allow: '/',
     },
   },
+
   app: {
     head: {
       title: 'Nuxt Starter',
@@ -50,4 +57,6 @@ export default defineNuxtConfig({
       ],
     },
   },
+
+  devtools: true
 })

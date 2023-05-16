@@ -42,7 +42,6 @@
             { label: 'icon', to: 'https://nuxt.com/modules/icon' },
             { label: 'image', to: 'https://v1.image.nuxtjs.org/get-started/' },
             { label: 'color-mode', to: 'https://color-mode.nuxtjs.org/' },
-            { label: 'typed-router', to: 'https://nuxt-typed-router.vercel.app/' },
             { label: 'critters', to: 'https://github.com/nuxt-modules/critters' },
             { label: 'robots', to: 'https://nuxt.com/modules/robots' },
           ]" :key="link.to">

@@ -27,7 +27,6 @@
 - [`nuxt-icon`](https://github.com/nuxt-modules/icon)
 - [`@nuxt/image-edge`](https://v1.image.nuxtjs.org/get-started)
 - [`@nuxtjs/color-mode`](https://color-mode.nuxtjs.org/)
-- [`nuxt-typed-router`](https://nuxt-typed-router.vercel.app/)
 - [`@nuxtjs/critters`](https://github.com/nuxt-modules/critters)
 - [`@nuxtjs/robots`](https://nuxt.com/modules/robots)
 

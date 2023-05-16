@@ -9,18 +9,13 @@ export default defineNuxtConfig({
     'nuxt-icon',
     '@nuxt/image-edge',
     '@nuxtjs/color-mode',
-    'nuxt-typed-router',
     '@nuxtjs/critters',
     '@nuxtjs/robots',
     '@nuxt/devtools',
   ],
 
   experimental: {
-    inlineSSRStyles: true,
-  },
-
-  devtools: {
-    enabled: true,
+    typedPages: true,
   },
 
   vite: {
@@ -32,8 +27,20 @@ export default defineNuxtConfig({
     },
   },
 
+  devtools: {
+    enabled: true,
+  },
+
   unocss: {
     preflight: true,
+  },
+
+  typescript: {
+    tsConfig: {
+      compilerOptions: {
+        moduleResolution: 'bundler',
+      },
+    },
   },
 
   imports: {

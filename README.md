@@ -25,7 +25,7 @@
 ### Modules
 - [`@nuxt/devtools`](https://nuxt.com/modules/devtools)
 - [`nuxt-icon`](https://github.com/nuxt-modules/icon)
-- [`@nuxt/image-edge`](https://v1.image.nuxtjs.org/get-started)
+- [`@nuxt/image`](https://v1.image.nuxtjs.org/get-started)
 - [`@nuxtjs/color-mode`](https://color-mode.nuxtjs.org/)
 - [`@nuxtjs/critters`](https://github.com/nuxt-modules/critters)
 - [`@nuxtjs/robots`](https://nuxt.com/modules/robots)

@@ -7,7 +7,7 @@ export default defineNuxtConfig({
     '@vue-macros/nuxt',
     '@pinia/nuxt',
     'nuxt-icon',
-    '@nuxt/image-edge',
+    '@nuxt/image',
     '@nuxtjs/color-mode',
     '@nuxtjs/critters',
     '@nuxtjs/robots',

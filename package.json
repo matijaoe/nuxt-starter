@@ -21,7 +21,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "0.39.3",
     "@nuxt/devtools": "^0.5.5",
-    "@nuxt/image-edge": "1.0.0-28085504.69f8eb0",
+    "@nuxt/image": "1.0.0-rc.1",
     "@nuxtjs/color-mode": "^3.2.0",
     "@nuxtjs/critters": "^0.4.1",
     "@nuxtjs/robots": "^3.0.0",

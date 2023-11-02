@@ -1,10 +1,11 @@
-# 🧚🏻 Nuxt 3 Starter Template
+# 🧚🏻 Nuxt 3 starter template
 
 > Minimal Nuxt 3 starter template pre-configured with essential modules
 
-<a href="https://nuxt-starter-iota.vercel.app">
-  <img width="1512" alt="Screenshot" src="https://user-images.githubusercontent.com/46557266/215290984-bbdf7179-05f9-424a-8ec2-febaffceda66.png">
+<a href="https://the-nuxt-starter.vercel.app">
+  <img width="1512" alt="Screenshot" src="https://github.com/matijaoe/nuxt-starter/assets/46557266/75e9431e-b799-45bb-b47e-8a7abe8d2f34">
 </a>
+
 
 ## Included
 - [UnoCSS](https://github.com/unocss/unocss)
@@ -24,7 +25,7 @@
 ### Modules
 - [`@nuxt/devtools`](https://nuxt.com/modules/devtools)
 - [`nuxt-icon`](https://github.com/nuxt-modules/icon)
-- [`@nuxt/image`](https://v1.image.nuxtjs.org/get-started)
+- [`@nuxt/image`](https://image.nuxt.com/)
 - [`@nuxtjs/color-mode`](https://color-mode.nuxtjs.org/)
 
 ## Use the template

@@ -35,7 +35,7 @@
 [![Open in Codeflow](https://developer.stackblitz.com/img/open_in_codeflow.svg)](https://pr.new/matijaoe/nuxt-starter)
 
 ### GitHub Template
-[Create a repo from this template on GitHub](https://github.com/matijaoe/vue-starter/generate)
+[Create a repo from this template on GitHub](https://github.com/matijaoe/nuxt-starter/generate)
 
 ### Local
 Clone the template locally, with no git history (using [`unjs/giget`](https://github.com/unjs/giget))

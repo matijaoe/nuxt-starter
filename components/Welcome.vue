@@ -53,8 +53,8 @@ const backgrounds = [
 </script>
 
 <template>
-  <div fixed inset-0 grid place-content-center bg="#0C0C0D" text="zinc-50" p-12>
-    <div w="screen md:3xl" space-y-14>
+  <div fixed inset-0 flex items-center bg="#0C0C0D" text="zinc-50" p-12>
+    <div space-y-14 w-4xl mx-auto>
       <NuxtLink to="https://nuxt.com" external target="_blank">
         <NuxtDark />
       </NuxtLink>

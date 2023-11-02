@@ -3,7 +3,7 @@
 > Minimal Nuxt 3 starter template pre-configured with essential modules
 
 <a href="https://the-nuxt-starter.vercel.app">
-  <img width="1512" alt="Screenshot" src="https://github.com/matijaoe/nuxt-starter/assets/46557266/faaa722c-4c4d-4858-8187-10e6c8dd57fc">
+  <img width="1512" alt="Screenshot" src="https://github.com/matijaoe/nuxt-starter/assets/46557266/3b6cf7b1-0dd8-4c43-9596-b1dafb8e81e0">
 </a>
 
 

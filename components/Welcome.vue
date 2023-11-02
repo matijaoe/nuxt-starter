@@ -1,5 +1,11 @@
 <script lang="ts" setup>
-const tools = [
+interface LinkItem {
+  label: string
+  to: string
+  icon?: string
+}
+
+const tools: LinkItem[] = [
   { label: 'UnoCSS', to: 'https://nuxt.com/modules/unocss', icon: 'logos:unocss' },
   { label: 'VueUse', to: 'https://vueuse.org/', icon: 'logos:vueuse' },
   { label: 'Pinia', to: 'https://pinia.vuejs.org/', icon: 'Pinia' },
@@ -9,39 +15,37 @@ const tools = [
   { label: 'pnpm', to: 'https://pnpm.io/', icon: 'logos:pnpm' },
 ]
 
-const modules = [
+const modules: LinkItem[] = [
   { label: 'devtools', to: 'https://nuxt.com/modules/devtools' },
   { label: 'icon', to: 'https://nuxt.com/modules/icon' },
   { label: 'image', to: 'https://image.nuxt.com/' },
   { label: 'color-mode', to: 'https://color-mode.nuxtjs.org/' },
 ]
 
-const links = [
+const links: LinkItem[] = [
+  { label: 'Nuxt', to: 'https://nuxt.com/', icon: 'logos:nuxt-icon' },
   { label: 'Docs', to: 'https://nuxt.com/docs/guide/directory-structure/nuxt', icon: 'logos:nuxt-icon' },
   { label: 'Modules', to: 'https://nuxt.com/modules', icon: 'logos:nuxt-icon' },
-  { label: 'GitHub', to: 'https://github.com/matijaoe/nuxt-starter', icon: 'simple-icons:github' },
+  { label: 'Code', to: 'https://github.com/matijaoe/nuxt-starter', icon: 'simple-icons:github' },
   { label: 'Live', to: 'https://the-nuxt-starter.vercel.app', icon: 'lucide:link' },
 ]
 
-const heroImgs = [
+const backgrounds = [
   {
     src: '/gradients/hero-gradient.svg',
-    class: 'absolute top-0 right-0 hidden overflow-hidden select-none lg:block blur-md pointer-events-none',
-    role: 'presentation',
+    class: 'right-0 hidden lg:block',
     width: 1269,
     height: 724,
   },
   {
     src: '/gradients/hero-gradient-tablet.svg',
-    class: 'absolute top-0 right-0 w-full hidden overflow-hidden select-none sm:block lg:hidden blur-md pointer-events-none',
-    role: 'presentation',
+    class: 'right-0 w-full hidden sm:block lg:hidden',
     width: 924,
     height: 653,
   },
   {
     src: '/gradients/hero-gradient-mobile.svg',
-    class: 'absolute inset-x-0 top-0 w-full overflow-hidden object-cover select-none sm:hidden blur-md pointer-events-none',
-    role: 'presentation',
+    class: 'inset-x-0 w-full object-cover sm:hidden',
     width: 375,
     height: 494,
   },
@@ -50,18 +54,27 @@ const heroImgs = [
 
 <template>
   <div fixed inset-0 grid place-content-center bg="#0C0C0D" text="zinc-50" p-12>
-    <div w="full md:3xl" space-y-12>
+    <div w="screen md:3xl" space-y-14>
       <NuxtLink to="https://nuxt.com" external target="_blank">
         <NuxtDark />
       </NuxtLink>
 
-      <NuxtImg v-for="(hero, i) in heroImgs" :key="i" z--1 v-bind="hero" />
+      <div z--1>
+        <NuxtImg
+          v-for="(item, i) in backgrounds"
+          :key="i"
+          z--1
+          v-bind="item"
+          class="pointer-events-none absolute top-0 select-none blur-md"
+          role="presentation"
+        />
+      </div>
 
-      <div grid grid-cols-2 w-fit gap-20>
+      <div w-fit w-full flex="~ col gap-14 sm:(row gap-25)">
         <ul class="links-column">
           <li v-for="link in tools" :key="link.to">
-            <NuxtLink class="link" :to="link.to" external target="_blank">
-              <Icon v-if="link.icon" :name="link.icon" />
+            <NuxtLink class="link" :to="link.to" external target="_blank" text-lg>
+              <Icon v-if="link.icon" :name="link.icon" shrink-0 class="text-20px"/>
               {{ link.label }}
             </NuxtLink>
           </li>
@@ -69,18 +82,18 @@ const heroImgs = [
 
         <ul class="links-column">
           <li v-for="link in modules" :key="link.to">
-            <NuxtLink class="link" :to="link.to" external target="_blank">
-              <Icon name="logos:nuxt-icon" />
+            <NuxtLink class="link" :to="link.to" external target="_blank" text-lg>
+              <Icon name="logos:nuxt-icon" shrink-0 class="text-20px"/>
               {{ link.label }}
             </NuxtLink>
           </li>
         </ul>
       </div>
 
-      <ul mt-8 flex gap-1 gap-4>
+      <ul mt-8 flex="~ col gap-2 sm:(row gap-5)">
         <li v-for="link in links" :key="link.to">
-          <NuxtLink class="link" :to="link.to" external target="_blank">
-            <Icon v-if="link.icon" :name="link.icon" />
+          <NuxtLink class="link" :to="link.to" external target="_blank" text-lg>
+            <Icon v-if="link.icon" :name="link.icon" shrink-0 class="text-20px"/>
             {{ link.label }}
           </NuxtLink>
         </li>
@@ -91,10 +104,11 @@ const heroImgs = [
 
 <style lang="postcss" scoped>
 .links-column {
-  @apply flex flex-col gap-1;
+  @apply flex flex-col gap-2 md:gap-1.5;
 }
 
 .link {
-  @apply underline decoration-zinc-50/20 decoration-offset-3 decoration-dotted hover:decoration-#00DC82 flex items-center gap-2;
+  --accent: #00DC82;
+  @apply underline decoration-zinc-50/20 decoration-offset-3 decoration-dotted hover:decoration-[--accent] hover:text-[--accent] flex items-center gap-2.5;
 }
 </style>

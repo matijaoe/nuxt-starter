@@ -44,7 +44,7 @@ const heroImgs = [
     role: 'presentation',
     width: 375,
     height: 494,
-  }
+  },
 ]
 </script>
 
@@ -55,11 +55,9 @@ const heroImgs = [
         <NuxtDark />
       </NuxtLink>
 
-      <div z--1>
-        <NuxtImg v-for="(hero, i) in heroImgs" :key="i" v-bind="hero" />
-      </div>
+      <NuxtImg v-for="(hero, i) in heroImgs" :key="i" z--1 v-bind="hero" />
 
-      <div grid grid-cols-2 gap-20 w-fit>
+      <div grid grid-cols-2 w-fit gap-20>
         <ul class="links-column">
           <li v-for="link in tools" :key="link.to">
             <NuxtLink class="link" :to="link.to" external target="_blank">
@@ -79,7 +77,7 @@ const heroImgs = [
         </ul>
       </div>
 
-      <ul flex gap-1 mt-8 gap-4>
+      <ul mt-8 flex gap-1 gap-4>
         <li v-for="link in links" :key="link.to">
           <NuxtLink class="link" :to="link.to" external target="_blank">
             <Icon v-if="link.icon" :name="link.icon" />

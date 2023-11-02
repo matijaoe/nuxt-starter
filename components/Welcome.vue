@@ -20,7 +20,7 @@ const links = [
   { label: 'Docs', to: 'https://nuxt.com/docs/guide/directory-structure/nuxt', icon: 'logos:nuxt-icon' },
   { label: 'Modules', to: 'https://nuxt.com/modules', icon: 'logos:nuxt-icon' },
   { label: 'GitHub', to: 'https://github.com/matijaoe/nuxt-starter', icon: 'simple-icons:github' },
-  { label: 'Live', to: 'https://nuxt-starter-iota.vercel.app', icon: 'lucide:link' },
+  { label: 'Live', to: 'https://the-nuxt-starter.vercel.app', icon: 'lucide:link' },
 ]
 
 const heroImgs = [

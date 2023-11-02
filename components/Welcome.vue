@@ -24,7 +24,7 @@ const modules: LinkItem[] = [
 
 const links: LinkItem[] = [
   { label: 'Nuxt', to: 'https://nuxt.com/', icon: 'logos:nuxt-icon' },
-  { label: 'Docs', to: 'https://nuxt.com/docs/guide/directory-structure/nuxt', icon: 'logos:nuxt-icon' },
+  { label: 'Docs', to: 'https://nuxt.com/docs/getting-started/introduction', icon: 'logos:nuxt-icon' },
   { label: 'Modules', to: 'https://nuxt.com/modules', icon: 'logos:nuxt-icon' },
   { label: 'Code', to: 'https://github.com/matijaoe/nuxt-starter', icon: 'simple-icons:github' },
   { label: 'Live', to: 'https://the-nuxt-starter.vercel.app', icon: 'lucide:link' },
@@ -54,7 +54,7 @@ const backgrounds = [
 
 <template>
   <div fixed inset-0 flex items-center bg="#0C0C0D" text="zinc-50" p-12>
-    <div space-y-14 w-4xl mx-auto>
+    <div mx-auto w-4xl space-y-14>
       <NuxtLink to="https://nuxt.com" external target="_blank">
         <NuxtDark />
       </NuxtLink>
@@ -63,10 +63,10 @@ const backgrounds = [
         <NuxtImg
           v-for="(item, i) in backgrounds"
           :key="i"
-          z--1
           v-bind="item"
-          class="pointer-events-none absolute top-0 select-none blur-md"
           role="presentation"
+          class="pointer-events-none absolute top-0 select-none blur-md"
+          z--1
         />
       </div>
 
@@ -74,7 +74,7 @@ const backgrounds = [
         <ul class="links-column">
           <li v-for="link in tools" :key="link.to">
             <NuxtLink class="link" :to="link.to" external target="_blank" text-lg>
-              <Icon v-if="link.icon" :name="link.icon" shrink-0 class="text-20px"/>
+              <Icon v-if="link.icon" :name="link.icon" shrink-0 class="text-20px" />
               {{ link.label }}
             </NuxtLink>
           </li>
@@ -83,7 +83,7 @@ const backgrounds = [
         <ul class="links-column">
           <li v-for="link in modules" :key="link.to">
             <NuxtLink class="link" :to="link.to" external target="_blank" text-lg>
-              <Icon name="logos:nuxt-icon" shrink-0 class="text-20px"/>
+              <Icon name="logos:nuxt-icon" shrink-0 class="text-20px" />
               {{ link.label }}
             </NuxtLink>
           </li>
@@ -93,7 +93,7 @@ const backgrounds = [
       <ul mt-8 flex="~ col gap-2 sm:(row gap-5)">
         <li v-for="link in links" :key="link.to">
           <NuxtLink class="link" :to="link.to" external target="_blank" text-lg>
-            <Icon v-if="link.icon" :name="link.icon" shrink-0 class="text-20px"/>
+            <Icon v-if="link.icon" :name="link.icon" shrink-0 class="text-20px" />
             {{ link.label }}
           </NuxtLink>
         </li>

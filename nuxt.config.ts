@@ -1,16 +1,11 @@
-import { defineNuxtConfig } from 'nuxt/config'
-
 export default defineNuxtConfig({
   modules: [
     '@unocss/nuxt',
     '@vueuse/nuxt',
-    '@vue-macros/nuxt',
     '@pinia/nuxt',
     'nuxt-icon',
     '@nuxt/image',
     '@nuxtjs/color-mode',
-    '@nuxtjs/critters',
-    '@nuxtjs/robots',
     '@nuxt/devtools',
   ],
 
@@ -27,47 +22,14 @@ export default defineNuxtConfig({
     },
   },
 
-  devtools: {
-    enabled: true,
-  },
-
-  unocss: {
-    preflight: true,
-  },
-
-  typescript: {
-    tsConfig: {
-      compilerOptions: {
-        moduleResolution: 'bundler',
-      },
-    },
-  },
-
-  imports: {
-    dirs: [
-      'composables/**',
-      'store/**',
-    ],
-    presets: [
-      'pinia',
-    ],
-  },
-
   postcss: {
     plugins: {
       'postcss-nesting': {},
     },
   },
 
-  colorMode: {
-    classSuffix: '',
-  },
-
-  robots: {
-    rules: {
-      UserAgent: '*',
-      Allow: '/',
-    },
+  unocss: {
+    preflight: true,
   },
 
   app: {
@@ -75,4 +37,8 @@ export default defineNuxtConfig({
       title: 'Nuxt Starter',
     },
   },
+
+  devtools: {
+    enabled: true
+  }
 })

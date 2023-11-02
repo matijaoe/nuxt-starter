@@ -1,12 +1,10 @@
 {
   "prettier.enable": false,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-  "editor.formatOnSave": false,
+  // "editor.codeActionsOnSave": {
+  //   "source.fixAll.eslint": true
+  // },
+  "editor.formatOnSave": true,
   "files.associations": {
     "*.css": "postcss"
   },
-  "volar.completion.preferredTagNameCase": "pascal",
-  "volar.completion.preferredAttrNameCase": "kebab"
 }

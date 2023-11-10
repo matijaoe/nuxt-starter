@@ -1,7 +1,9 @@
-import antfu from '@antfu/eslint-config'
+import matijaoe from '@matijaoe/eslint-config'
 import unocss from '@unocss/eslint-plugin'
 
-export default antfu(
-  {},
+export default matijaoe(
+  {
+    propsDestructure: true,
+  },
   unocss.configs.flat,
 )

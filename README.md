@@ -19,7 +19,7 @@
 - [Pinia](https://pinia.vuejs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [PostCSS Nesting](https://github.com/csstools/postcss-plugins/tree/main/plugins/postcss-nesting)
-- [ESLint](https://github.com/antfu/eslint-config)
+- [ESLint](https://github.com/matijaoe/eslint-config)
 - [pnpm](https://pnpm.io/)
 
 ### Modules

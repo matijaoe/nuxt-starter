@@ -17,8 +17,8 @@
     "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
-    "@matijaoe/eslint-config": "^1.0.5",
-    "@nuxt/devtools": "^1.0.1",
+    "@matijaoe/eslint-config": "^1.1.0",
+    "@nuxt/devtools": "^1.0.2",
     "@nuxt/image": "^1.0.0",
     "@nuxtjs/color-mode": "^3.3.0",
     "@pinia/nuxt": "^0.5.1",

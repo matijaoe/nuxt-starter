@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-interface LinkItem {
+type LinkItem = {
   label: string
   to: string
   icon?: string

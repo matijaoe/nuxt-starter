@@ -6,11 +6,11 @@ settings:
 
 devDependencies:
   '@matijaoe/eslint-config':
-    specifier: ^1.0.5
-    version: 1.0.5(eslint@8.53.0)(typescript@5.2.2)(vitest@0.34.6)
+    specifier: ^1.1.0
+    version: 1.1.0(eslint@8.53.0)(typescript@5.2.2)(vitest@0.34.6)
   '@nuxt/devtools':
-    specifier: ^1.0.1
-    version: 1.0.1(nuxt@3.8.1)(vite@4.5.0)
+    specifier: ^1.0.2
+    version: 1.0.2(nuxt@3.8.1)(vite@4.5.0)
   '@nuxt/image':
     specifier: ^1.0.0
     version: 1.0.0
@@ -1111,8 +1111,8 @@ packages:
       - supports-color
     dev: true
 
-  /@matijaoe/eslint-config@1.0.5(eslint@8.53.0)(typescript@5.2.2)(vitest@0.34.6):
-    resolution: {integrity: sha512-lQ/JzmLh3fpH5smxY1z0PLoAi9NzmacWvljI+widEjWKBSiV6+swarY138IbkLrVfNat6cztCkBz8De5slnOYA==}
+  /@matijaoe/eslint-config@1.1.0(eslint@8.53.0)(typescript@5.2.2)(vitest@0.34.6):
+    resolution: {integrity: sha512-NTK99QPS2PigMc0OqTMjDCxalhrxIuDcnhQaS5sg94t9dxZuTgga8gvrEhOsGjJVeDNzW5Ke1OpH7pL15io78g==}
     peerDependencies:
       eslint: '>=8.0.0'
     dependencies:
@@ -1284,15 +1284,31 @@ packages:
       - supports-color
     dev: true
 
-  /@nuxt/devtools-wizard@1.0.1:
-    resolution: {integrity: sha512-p44qhWWKR4aEy1cRHGkHQyNJ93rfpDUPhQoqrMBmGQNBWJxLCbZCrdhOWJi9kOlu2qSBbvz/4mOHEXQ2G8APsA==}
+  /@nuxt/devtools-kit@1.0.2(nuxt@3.8.1)(vite@4.5.0):
+    resolution: {integrity: sha512-iFi54NNCcPsF/jW14HbRlq3aOClOWdfiein0CvKoQ5shobHgn1s3xULh8o9QPKI2oTarcuJL+EFIK43CwfoXyw==}
+    peerDependencies:
+      nuxt: ^3.8.1
+      vite: '*'
+    dependencies:
+      '@nuxt/kit': 3.8.1
+      '@nuxt/schema': 3.8.1
+      execa: 7.2.0
+      nuxt: 3.8.1(eslint@8.53.0)(typescript@5.2.2)(vite@4.5.0)
+      vite: 4.5.0(@types/node@20.9.0)
+    transitivePeerDependencies:
+      - rollup
+      - supports-color
+    dev: true
+
+  /@nuxt/devtools-wizard@1.0.2:
+    resolution: {integrity: sha512-fY9Y0eCJG7eSuUgnjImWVfLZPZymoHxjrVsdhfKs3yRJvB2siaabluxvdy2OTYc+WpIxuey0hjqpv+dVtnYw1A==}
     hasBin: true
     dependencies:
       consola: 3.2.3
       diff: 5.1.0
       execa: 7.2.0
       global-directory: 4.0.1
-      magicast: 0.3.1
+      magicast: 0.3.2
       pathe: 1.1.1
       pkg-types: 1.0.3
       prompts: 2.4.2
@@ -1300,16 +1316,16 @@ packages:
       semver: 7.5.4
     dev: true
 
-  /@nuxt/devtools@1.0.1(nuxt@3.8.1)(vite@4.5.0):
-    resolution: {integrity: sha512-VwuX4g0QmKBE3GyDqVkLIt3xOz/aTFZbD1SxyT/ani4FfOAec2ksjbF4CQmGonfjL2lN1glvoew83zj4P5vi/g==}
+  /@nuxt/devtools@1.0.2(nuxt@3.8.1)(vite@4.5.0):
+    resolution: {integrity: sha512-nfqvRc36Sh20gDVs3pViHvcyyz3NmaNqgJnWUXgfjSCsT7G/p2wHsoNUXYYTF7kpk3kbNusftaWrIzAiTiXC9A==}
     hasBin: true
     peerDependencies:
-      nuxt: ^3.7.4
+      nuxt: ^3.8.1
       vite: '*'
     dependencies:
       '@antfu/utils': 0.7.6
-      '@nuxt/devtools-kit': 1.0.1(nuxt@3.8.1)(vite@4.5.0)
-      '@nuxt/devtools-wizard': 1.0.1
+      '@nuxt/devtools-kit': 1.0.2(nuxt@3.8.1)(vite@4.5.0)
+      '@nuxt/devtools-wizard': 1.0.2
       '@nuxt/kit': 3.8.1
       birpc: 0.2.14
       consola: 3.2.3
@@ -1325,7 +1341,7 @@ packages:
       is-installed-globally: 1.0.0
       launch-editor: 2.6.1
       local-pkg: 0.5.0
-      magicast: 0.3.1
+      magicast: 0.3.2
       nitropack: 2.7.2
       nuxt: 3.8.1(eslint@8.53.0)(typescript@5.2.2)(vite@4.5.0)
       nypm: 0.3.3
@@ -1982,9 +1998,9 @@ packages:
       eslint: '*'
     dependencies:
       '@stylistic/eslint-plugin-js': 1.0.0(eslint@8.53.0)
-      '@typescript-eslint/scope-manager': 6.9.1
+      '@typescript-eslint/scope-manager': 6.10.0
       '@typescript-eslint/type-utils': 6.9.1(eslint@8.53.0)(typescript@5.2.2)
-      '@typescript-eslint/utils': 6.9.1(eslint@8.53.0)(typescript@5.2.2)
+      '@typescript-eslint/utils': 6.10.0(eslint@8.53.0)(typescript@5.2.2)
       eslint: 8.53.0
       graphemer: 1.4.0
     transitivePeerDependencies:
@@ -2063,10 +2079,6 @@ packages:
       '@types/node': 20.9.0
     dev: true
 
-  /@types/json-schema@7.0.14:
-    resolution: {integrity: sha512-U3PUjAudAdJBeC2pgN8uTIKgxrb4nlDF3SF0++EldXQvQBGkpFZMSnwQiIoDU77tv45VgNkl/L4ouD+rEomujw==}
-    dev: true
-
   /@types/json-schema@7.0.15:
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
     dev: true
@@ -2089,10 +2101,6 @@ packages:
 
   /@types/resolve@1.20.2:
     resolution: {integrity: sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==}
-    dev: true
-
-  /@types/semver@7.5.4:
-    resolution: {integrity: sha512-MMzuxN3GdFwskAnb6fz0orFvhfqi752yjaXylr0Rp4oDg5H0Zn1IuyRhDVvYOwAXoJirx2xuS16I3WjxnAIHiQ==}
     dev: true
 
   /@types/semver@7.5.5:
@@ -2271,8 +2279,8 @@ packages:
       eslint: ^7.0.0 || ^8.0.0
     dependencies:
       '@eslint-community/eslint-utils': 4.4.0(eslint@8.53.0)
-      '@types/json-schema': 7.0.14
-      '@types/semver': 7.5.4
+      '@types/json-schema': 7.0.15
+      '@types/semver': 7.5.5
       '@typescript-eslint/scope-manager': 6.9.1
       '@typescript-eslint/types': 6.9.1
       '@typescript-eslint/typescript-estree': 6.9.1(typescript@5.2.2)
@@ -4263,8 +4271,8 @@ packages:
       which-typed-array: 1.1.13
     dev: true
 
-  /es-module-lexer@1.4.0:
-    resolution: {integrity: sha512-lcCr3v3OLezdfFyx9r5NRYHOUTQNnFEQ9E87Mx8Kc+iqyJNkO7MJoB4GQRTlIMw9kLLTwGw0OAkm4BQQud/d9g==}
+  /es-module-lexer@1.4.1:
+    resolution: {integrity: sha512-cXLGjP0c4T3flZJKQSuziYoq7MlT+rnvfZjfp7h+I7K9BNX54kP9nyWvdbwjQ4u1iWbOL4u96fgeZLToQlZC7w==}
     dev: true
 
   /es-set-tostringtag@2.0.2:
@@ -4568,7 +4576,7 @@ packages:
       vue-eslint-parser:
         optional: true
     dependencies:
-      '@typescript-eslint/utils': 6.9.1(eslint@8.53.0)(typescript@5.2.2)
+      '@typescript-eslint/utils': 6.10.0(eslint@8.53.0)(typescript@5.2.2)
       eslint: 8.53.0
       minimatch: 9.0.3
       natural-compare-lite: 1.4.0
@@ -4628,7 +4636,7 @@ packages:
         optional: true
     dependencies:
       '@typescript-eslint/eslint-plugin': 6.9.1(@typescript-eslint/parser@6.9.1)(eslint@8.53.0)(typescript@5.2.2)
-      '@typescript-eslint/utils': 6.9.1(eslint@8.53.0)(typescript@5.2.2)
+      '@typescript-eslint/utils': 6.10.0(eslint@8.53.0)(typescript@5.2.2)
       eslint: 8.53.0
       vitest: 0.34.6
     transitivePeerDependencies:
@@ -6163,8 +6171,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /magicast@0.3.1:
-    resolution: {integrity: sha512-4OS+6e5iHr9VxOeA8TqWNudbdTmKvGNd6iCeOsIDwZn7iLLg3uV3BoQfsaXgFVK5x1fXPBx5X0f6w4sb6HYSQA==}
+  /magicast@0.3.2:
+    resolution: {integrity: sha512-Fjwkl6a0syt9TFN0JSYpOybxiMCkYNEeOTnOTNRbjphirLakznZXAqrXgj/7GG3D1dvETONNwrBfinvAbpunDg==}
     dependencies:
       '@babel/parser': 7.23.3
       '@babel/types': 7.23.3
@@ -6815,7 +6823,7 @@ packages:
         optional: true
     dependencies:
       '@nuxt/devalue': 2.0.2
-      '@nuxt/devtools': 1.0.1(nuxt@3.8.1)(vite@4.5.0)
+      '@nuxt/devtools': 1.0.2(nuxt@3.8.1)(vite@4.5.0)
       '@nuxt/kit': 3.8.1
       '@nuxt/schema': 3.8.1
       '@nuxt/telemetry': 2.5.2
@@ -9432,7 +9440,7 @@ packages:
       browserslist: 4.22.1
       chrome-trace-event: 1.0.3
       enhanced-resolve: 5.15.0
-      es-module-lexer: 1.4.0
+      es-module-lexer: 1.4.1
       eslint-scope: 5.1.1
       events: 3.3.0
       glob-to-regexp: 0.4.1
@@ -9589,12 +9597,7 @@ packages:
     dependencies:
       eslint-visitor-keys: 3.4.3
       lodash: 4.17.21
-      yaml: 2.3.3
-    dev: true
-
-  /yaml@2.3.3:
-    resolution: {integrity: sha512-zw0VAJxgeZ6+++/su5AFoqBbZbrEakwu+X0M5HmcwUiBL7AzcuPKjj5we4xfQLp78LkEMpD0cOnUhmgOVy3KdQ==}
-    engines: {node: '>= 14'}
+      yaml: 2.3.4
     dev: true
 
   /yaml@2.3.4:

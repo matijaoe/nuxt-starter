@@ -2,7 +2,7 @@
   "name": "nuxt-starter",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@8.5.0",
+  "packageManager": "pnpm@8.11.0",
   "license": "MIT",
   "engines": {
     "node": ">=18.0"
@@ -18,19 +18,19 @@
   },
   "devDependencies": {
     "@matijaoe/eslint-config": "^1.2.0",
-    "@nuxt/devtools": "^1.0.3",
+    "@nuxt/devtools": "^1.0.4",
     "@nuxt/image": "^1.1.0",
     "@nuxtjs/color-mode": "^3.3.2",
     "@pinia/nuxt": "^0.5.1",
-    "@unocss/eslint-config": "^0.57.7",
-    "@unocss/nuxt": "0.57.7",
-    "@vueuse/nuxt": "10.6.1",
-    "eslint": "^8.54.0",
+    "@unocss/eslint-config": "^0.58.0",
+    "@unocss/nuxt": "0.58.0",
+    "@vueuse/nuxt": "10.7.0",
+    "eslint": "^8.55.0",
     "nuxt": "^3.8.2",
     "nuxt-icon": "0.6.6",
     "pinia": "^2.1.6",
     "postcss-nesting": "^12.0.1",
-    "vue": "^3.3.9",
+    "vue": "^3.3.10",
     "vue-router": "^4.2.5"
   }
 }

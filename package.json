@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@matijaoe/eslint-config": "^1.2.0",
-    "@nuxt/devtools": "^1.0.4",
+    "@nuxt/devtools": "^1.0.5",
     "@nuxt/image": "^1.1.0",
     "@nuxtjs/color-mode": "^3.3.2",
     "@pinia/nuxt": "^0.5.1",
@@ -29,10 +29,10 @@
     "eslint": "^8.55.0",
     "moderndash": "^3.9.0",
     "nuxt": "^3.8.2",
-    "nuxt-icon": "0.6.6",
+    "nuxt-icon": "0.6.7",
     "pinia": "^2.1.6",
     "postcss-nesting": "^12.0.1",
-    "vue": "^3.3.10",
+    "vue": "^3.3.11",
     "vue-router": "^4.2.5"
   }
 }

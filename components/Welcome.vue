@@ -1,4 +1,6 @@
 <script lang="ts" setup>
+import { isEmpty } from 'moderndash'
+
 type LinkItem = {
   label: string
   to: string
@@ -53,7 +55,7 @@ const backgrounds = [
 </script>
 
 <template>
-  <div fixed inset-0 flex items-center bg="#0C0C0D" text="zinc-50" p-12>
+  <div bg="#0C0C0D" text="zinc-50" fixed inset-0 flex items-center of-y-auto p-12>
     <div mx-auto w-4xl space-y-14>
       <NuxtLink to="https://nuxt.com" external target="_blank">
         <NuxtDark />

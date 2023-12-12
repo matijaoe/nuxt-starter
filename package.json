@@ -10,11 +10,12 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "dev:tunnel": "nuxt dev --tunnel",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "format": "eslint . --fix"
   },
   "devDependencies": {
     "@matijaoe/eslint-config": "^1.2.0",
@@ -26,6 +27,7 @@
     "@unocss/nuxt": "0.58.0",
     "@vueuse/nuxt": "10.7.0",
     "eslint": "^8.55.0",
+    "moderndash": "^3.9.0",
     "nuxt": "^3.8.2",
     "nuxt-icon": "0.6.6",
     "pinia": "^2.1.6",

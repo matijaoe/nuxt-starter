@@ -17,21 +17,24 @@
     "lint": "eslint .",
     "format": "eslint . --fix"
   },
+  "dependencies": {
+    "@matijaoe/utils": "^0.1.7"
+  },
   "devDependencies": {
     "@matijaoe/eslint-config": "^1.2.0",
-    "@nuxt/devtools": "^1.0.5",
+    "@nuxt/devtools": "^1.0.6",
     "@nuxt/image": "^1.1.0",
     "@nuxtjs/color-mode": "^3.3.2",
     "@pinia/nuxt": "^0.5.1",
     "@unocss/eslint-config": "^0.58.0",
     "@unocss/nuxt": "0.58.0",
     "@vueuse/nuxt": "10.7.0",
-    "eslint": "^8.55.0",
-    "nuxt": "^3.8.2",
+    "eslint": "^8.56.0",
+    "nuxt": "^3.9.0",
     "nuxt-icon": "0.6.7",
     "pinia": "^2.1.6",
-    "postcss-nesting": "^12.0.1",
-    "vue": "^3.3.11",
+    "postcss-nesting": "^12.0.2",
+    "vue": "^3.3.13",
     "vue-router": "^4.2.5"
   }
 }

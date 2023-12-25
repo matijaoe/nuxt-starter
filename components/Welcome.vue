@@ -1,6 +1,4 @@
 <script lang="ts" setup>
-import { isEmpty } from 'moderndash'
-
 type LinkItem = {
   label: string
   to: string

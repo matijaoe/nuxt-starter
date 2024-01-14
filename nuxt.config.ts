@@ -13,10 +13,13 @@ export default defineNuxtConfig({
     typedPages: true,
   },
 
+  features: {
+    inlineStyles: false,
+  },
+
   vite: {
     vue: {
       script: {
-        defineModel: true,
         propsDestructure: false,
       },
     },

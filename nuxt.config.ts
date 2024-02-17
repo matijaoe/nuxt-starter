@@ -6,23 +6,19 @@ export default defineNuxtConfig({
     'nuxt-icon',
     '@nuxt/image',
     '@nuxtjs/color-mode',
-    '@nuxt/devtools',
   ],
+
+  devtools: {
+    enabled: true,
+  },
 
   experimental: {
     typedPages: true,
+    cookieStore: true,
   },
 
   features: {
     inlineStyles: false,
-  },
-
-  vite: {
-    vue: {
-      script: {
-        propsDestructure: false,
-      },
-    },
   },
 
   postcss: {
@@ -41,7 +37,4 @@ export default defineNuxtConfig({
     },
   },
 
-  devtools: {
-    enabled: true,
-  },
 })

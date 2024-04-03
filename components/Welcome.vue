@@ -104,11 +104,13 @@ const backgrounds = [
 
 <style lang="postcss" scoped>
 .links-column {
-  @apply flex flex-col gap-2 md:gap-1.5;
+  --apply: flex flex-col gap-2 md: gap-1.5;
 }
 
 .link {
-  --accent: #00DC82;
-  @apply underline decoration-zinc-50/20 decoration-offset-3 decoration-dotted hover:decoration-[--accent] hover:text-[--accent] flex items-center gap-2.5;
+  --accent: #00dc82;
+  --apply: underline decoration-zinc-50/20 decoration-offset-3 decoration-dotted
+    hover: decoration-[--accent] hover: text-[--accent] flex items-center
+    gap-2.5;
 }
 </style>

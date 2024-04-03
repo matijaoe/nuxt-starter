@@ -36,5 +36,4 @@ export default defineNuxtConfig({
       title: 'Nuxt Starter',
     },
   },
-
 })
